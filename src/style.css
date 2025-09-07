@@ -1,0 +1,17 @@
+.montserrat- {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+body {
+  background: #f8f8f8 !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+h1,
+h2,
+h4 {
+  text-align: center;
+  margin: 0;
+  font-weight: 700 !important;
+}
