@@ -4,6 +4,11 @@
   font-weight: weight;
   font-style: normal;
 }
+:root {
+  --primary-color: #0c085e;
+  --secondary-color: #e9e9ecef;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 body {
   background: #f8f8f8 !important;
   font-family: "Montserrat", sans-serif !important;
@@ -14,4 +19,32 @@ h4 {
   text-align: center;
   margin: 0;
   font-weight: 700 !important;
+}
+h1 {
+  color: var(--primary-color) !important;
+}
+.button-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.info {
+  padding: 120px 0;
+}
+@media (max-width: 576px) {
+  .navigation-links {
+    display: none;
+  }
 }
