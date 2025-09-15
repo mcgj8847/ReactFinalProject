@@ -50,6 +50,14 @@ h5 {
   font-weight: bold;
   text-decoration: none;
 }
+.contact {
+  text-align: center;
+}
+.mail {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
 @media (max-width: 576px) {
   .navigation-links {
     display: none;
