@@ -45,6 +45,11 @@ h5 {
 .info {
   padding: 100px 0;
 }
+.seshat {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-decoration: none;
+}
 @media (max-width: 576px) {
   .navigation-links {
     display: none;
