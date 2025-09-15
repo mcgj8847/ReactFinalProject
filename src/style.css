@@ -58,6 +58,14 @@ h5 {
   margin-top: 40px;
   justify-content: center;
 }
+.nav-item :hover {
+  color: var(--primary-color) !important;
+  font-weight: bold;
+}
+.nav-item.active {
+  color: var(--primary-color) !important;
+  font-weight: bold;
+}
 @media (max-width: 576px) {
   .navigation-links {
     display: none;
